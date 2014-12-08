@@ -1,8 +1,0 @@
-package com.Bloods.BloodTG;
-
-import cpw.mods.fml.common.Mod;
-
-@Mod(modid="BloodTG", name="Blood's Travel Gear", version="1.7.10-1.0")
-public class BloodTG {
-
-}
