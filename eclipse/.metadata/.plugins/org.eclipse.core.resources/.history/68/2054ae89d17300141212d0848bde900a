@@ -1,0 +1,10 @@
+package com.Bloods.BloodTG.item;
+
+public class ItemWitheredDia extends ItemBTG
+{
+	public ItemWitheredDia()
+	{
+		super();
+		this.setUnlocalizedName("witheredDiamond");
+	}
+}

@@ -1,0 +1,14 @@
+package com.Bloods.BloodTG.block;
+
+public class BlockOreEther extends BlockBTG
+{
+	public BlockOreEther()
+	{
+		super();
+		this.setBlockName("oreEther");
+		this.setHardness(2.1F);
+	}
+}
+/* Ore, world gen, gives 1-5 ether shards w/o fortune, 
+ * has alt liquid form, bucket of ether is 5 shards when crystallized
+ */

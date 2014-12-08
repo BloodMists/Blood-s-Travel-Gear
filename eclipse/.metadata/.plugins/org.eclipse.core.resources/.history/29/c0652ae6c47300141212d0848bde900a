@@ -1,0 +1,12 @@
+package com.Bloods.BloodTG.item.bracerT1;
+
+import com.Bloods.BloodTG.item.ItemBTG;
+
+public class ItemBracerIce extends ItemBTG
+{
+	public ItemBracerIce()
+	{
+		super();
+		this.setUnlocalizedName("bracerIce");
+	}
+}

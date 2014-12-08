@@ -1,0 +1,19 @@
+package com.Bloods.BloodTG.creativetab;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import com.Bloods.BloodTG.init.ModItemsLoader;
+import com.Bloods.BloodTG.reference.Reference;
+
+public class CreativetabIBTG
+{
+	public static final CreativeTabs BTG_Items = new CreativeTabs(Reference.Mod_ID.toLowerCase()) 
+	{
+		@Override
+		public Item getTabIconItem()
+		{
+			return ModItemsLoader.bracer;
+		}
+		
+	};
+}

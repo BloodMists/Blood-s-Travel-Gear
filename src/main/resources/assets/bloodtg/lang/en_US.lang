@@ -1,34 +1,47 @@
-item.bloodtg:witheredDiamond.name=Withered Diamond
-item.bloodtg:imbuedQuartz.name=Imbued Quartz
-item.bloodtg:etherShard.name=Ethereal Shard
+#General Items
+item.bloodtg.witheredDiamond.name=Withered Diamond
+item.bloodtg.imbuedQuartz.name=Imbued Quartz
+item.bloodtg.etherShard.name=Ethereal Shard
+item.bloodtg.dustBone.name=Bone Dust
+item.bloodtg.obsLeater.name=Obsidian Leather
 
-item.bloodtg:bracer.name=Bracer
+#Bracers
+item.bloodtg.bracer.name=Bracer
 
-item.bloodtg:bracerEnder.name=Ender Bracer
-item.bloodtg:bracerEther.name=Ethereal Bracer
-item.bloodtg:bracerHealth.name=Bracer of Blood
-item.bloodtg:bracerIce.name=Bracer of Ice
-item.bloodtg:bracerLife.name=Bracer of Stories
-item.bloodtg:bracerObsid.name=Obsidian Bracer
+item.bloodtg.bracerEnder.name=Ender Bracer
 
-item.bloodtg:bracerEtherT2.name=Bracer of the Etherium
-item.bloodtg:bracerHealthT2.name=Bleeding Bracer
-item.bloodtg:bracerIceT2.name=Chilling Bracer
-item.bloodtg:bracerLifeT2.name=Bracer of Legend
-item.bloodtg:bracerWind.name=Wind-strewn Bracers
+item.bloodtg.bracerObsid.name=Obsidian Bracer
+item.bloodtg.bracerWind.name=Wind-strewn Bracers
+item.bloodtg.bracerFire.name=Bracer of Burning
 
-item.bloodtg:bracerEtherT3.name=Bracers of Mist
-item.bloodtg:bracerHealthT3.name=Guarded Bleeding Bracer
-item.bloodtg:bracerIceT3.name=Icey Bracer
-item.bloodtg:bracerLifeT3.name=Bracer of Myth
-itme.bloodtg:bracerFire.name=Bracer of Burning
+item.bloodtg.bracerEther.name=Ethereal Bracer
+item.bloodtg.bracerEtherT2.name=Bracers of the Etherium
+item.bloodtg.bracerEtherT3.name=Bracers of Mist
+item.bloodtg.bracerEtherT4.name=Bracer of Ancient Memories
+item.bloodtg.bracerObsEtLi.name=Bracer of the Forgotten
 
-item.bloodtg:bracerEtherT4.name=Bracer of Ancient Memories
-item.bloodtg:bracerIceT4.name=Glacial Bracer
-item.bloodtg:bracerObsH.name=Bloodied Bracer of Burning
-item.bloodtg:bracerObsEtLi.name=Bracer of the Forgotten
+item.bloodtg.bracerHealth.name=Bracer of Blood
+item.bloodtg.bracerHealthT2.name=Bleeding Bracer
+item.bloodtg.bracerHealthT3.name=Guarded Bleeding Bracer
+item.bloodtg.bracerObsH.name=Bloodied Bracer of Burning
 
-tile.bloodtg:oreEther.name=Etherium Ore
+item.bloodtg.bracerIce.name=Bracer of Ice
+item.bloodtg.bracerIceT2.name=Chilling Bracer
+item.bloodtg.bracerIceT3.name=Icey Bracer
+item.bloodtg.bracerIceT4.name=Glacial Bracer
 
+item.bloodtg.bracerLife.name=Bracer of Stories
+item.bloodtg.bracerLifeT2.name=Bracer of Legend
+item.bloodtg.bracerLifeT3.name=Bracer of Myth
+item.bloodtg.bracerLifeT4.name=OP Bracer of Regen
+
+#Blocks
+tile.bloodtg.oreEther.name=Etherium Ore
+tile.bloodtg.oreIce.name=Icey Ore
+tile.bloodtg.stoneLife.name=Life Stone
+tile.bloodtg.cobbleLife.name= Life Cobblestone
+tile.bloodtg.infusion_table.name=Infusion Table
+
+#Creative Tabs
 itemGroup.tab.bloodtg:BBTG=BloodTG Blocks
 itemGroup.tab.bloodtg:IBTG=BloodTG Items

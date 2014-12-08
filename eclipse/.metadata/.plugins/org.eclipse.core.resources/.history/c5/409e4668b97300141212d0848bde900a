@@ -1,0 +1,10 @@
+package com.Bloods.BloodTG.item;
+
+public class ItemBracerLife extends ItemBTG
+{
+	public ItemBracerLife()
+	{
+		super();
+		this.setUnlocalizedName("bracerLife");
+	}
+}

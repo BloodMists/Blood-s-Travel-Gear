@@ -1,0 +1,19 @@
+package com.Bloods.BloodTG.init;
+
+import com.Bloods.BloodTG.item.ItemBTG;
+import com.Bloods.BloodTG.item.ItemBracer;
+import com.Bloods.BloodTG.item.ItemBracerIce;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class ModItems
+{
+	public static final ItemBTG bracer = new ItemBracer();
+	public static final ItemBTG bracerIce = new ItemBracerIce();
+	
+	public static void init()
+	{
+		GameRegistry.registerItem(bracer, "bracer");
+		GameRegistry.registerItem(bracerIce, "bracerIce");
+	}
+}

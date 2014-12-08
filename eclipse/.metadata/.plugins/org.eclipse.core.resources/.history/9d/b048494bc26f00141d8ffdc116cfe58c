@@ -1,0 +1,6 @@
+package proxy.copy;
+
+public class ServerProxy extends CommonProxy
+{
+
+}

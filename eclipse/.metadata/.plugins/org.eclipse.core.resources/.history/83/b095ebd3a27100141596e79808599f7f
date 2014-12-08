@@ -1,0 +1,11 @@
+package com.Bloods.BloodTG.configs;
+
+import java.io.File;
+
+public class configHandler
+{
+	public static void init(File configFile)
+	{
+		
+	}
+}

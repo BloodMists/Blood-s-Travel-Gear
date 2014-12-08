@@ -1,0 +1,9 @@
+package com.Bloods.BloodTG.item.bracerT4;
+
+public class ItemBracerEtherT4 extends ItemBTG
+{
+	public ItemBracerEtherT4()
+	{
+		
+	}
+}

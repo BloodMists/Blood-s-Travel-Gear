@@ -1,0 +1,40 @@
+package com.Bloods.BloodTG.init;
+
+import com.Bloods.BloodTG.item.ItemBTG;
+import com.Bloods.BloodTG.item.ItemBracer;
+import com.Bloods.BloodTG.item.bracerT1.ItemBracerEnder;
+import com.Bloods.BloodTG.item.bracerT1.ItemBracerEther;
+import com.Bloods.BloodTG.item.bracerT1.ItemBracerHealth;
+import com.Bloods.BloodTG.item.bracerT1.ItemBracerIce;
+import com.Bloods.BloodTG.item.bracerT1.ItemBracerLife;
+import com.Bloods.BloodTG.item.bracerT2.ItemBracerObsEtLi;
+import com.Bloods.BloodTG.item.bracerT2.ItemBracerObsH;
+import com.Bloods.BloodTG.item.bracerT1.ItemBracerObsid;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class ModItems
+{
+	public static final ItemBTG bracer = new ItemBracer();
+	public static final ItemBTG bracerEnder = new ItemBracerEnder();
+	public static final ItemBTG bracerEther = new ItemBracerEther();
+	public static final ItemBTG bracerHealth = new ItemBracerHealth();
+	public static final ItemBTG bracerIce = new ItemBracerIce();
+	public static final ItemBTG bracerLife = new ItemBracerLife();
+	public static final ItemBTG bracerObsEtLi = new ItemBracerObsEtLi();
+	public static final ItemBTG bracerObsH = new ItemBracerObsH();
+	public static final ItemBTG bracerObsid = new ItemBracerObsid();
+	
+	public static void init()
+	{
+		GameRegistry.registerItem(bracer, "bracer");
+		GameRegistry.registerItem(bracerIce, "bracerIce");
+		GameRegistry.registerItem(bracerHealth, "bracerHealth");
+		GameRegistry.registerItem(bracerLife, "bracerLife");
+		GameRegistry.registerItem(bracerEther, "bracerEther");
+		GameRegistry.registerItem(bracerEnder, "bracerEnder");
+		GameRegistry.registerItem(bracerObsid, "bracerObsid");
+		GameRegistry.registerItem(bracerObsH, "bracerObsH");
+		GameRegistry.registerItem(bracerObsEtLi, "bracerObsEtLi");
+	}
+}

@@ -22,21 +22,9 @@ public class BlockBTG extends Block
 		this.setCreativeTab(CreativetabBBTG.BTG_Blocks);
 	}
 
-	@Override
-	public String getUnlocalizedName()
+	protected void setUnlocalName(String name)
 	{
-		return String.format("tile.%s%s", Reference.Mod_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
-	}
-
-	@Override
-	@SideOnly(Side.CLIENT)
-	public void registerBlockIcons(IIconRegister iconRegister)
-	{
-		blockIcon = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName())));
-	}
-	
-	protected String getUnwrappedUnlocalizedName(String unlocalizedName)
-	{
-		return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
+	    setBlockName(Reference.Mod_ID.toLowerCase() + "." + name);
+	    setBlockTextureName(Reference.Mod_ID.toLowerCase() + ":" + name);
 	}
 }

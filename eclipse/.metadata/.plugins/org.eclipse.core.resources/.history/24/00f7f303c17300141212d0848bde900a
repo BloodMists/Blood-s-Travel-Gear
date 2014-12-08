@@ -1,0 +1,18 @@
+package com.Bloods.BloodTG.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class BlockBTG extends Block
+{
+	public BlockBTG(Material material)
+	{
+		super(material);
+	}
+
+	public BlockBTG()
+	{
+		super(Material.rock);
+	}
+
+}

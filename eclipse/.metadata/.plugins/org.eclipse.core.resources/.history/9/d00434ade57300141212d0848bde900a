@@ -1,0 +1,29 @@
+item.bloodtg:witheredDiamond.name=Withered Diamond
+item.bloodtg:imbuedQuartz.name=Imbued Quartz
+
+item.bloodtg:bracer.name=Bracer
+
+item.bloodtg:bracerEnder.name=Ender Bracer
+item.bloodtg:bracerEther.name=Ethereal Bracer
+item.bloodtg:bracerHealth.name=Bracer of Blood
+item.bloodtg:bracerIce.name=Bracer of Ice
+item.bloodtg:bracerLife.name=Bracer of Stories
+item.bloodtg:bracerObsid.name=Obsidian Bracer
+
+item.bloodtg:bracerEtherT2.name=Bracer of the Etherium
+item.bloodtg:bracerHealthT2.name=Bleeding Bracer
+item.bloodtg:bracerIceT2.name=Chilling Bracer
+item.bloodtg:bracerLifeT2.name=Bracer of Legend
+item.bloodtg:bracerWind.name=Wind-strewn Bracers
+
+item.bloodtg:bracerEtherT3.name=Bracers of Mist
+item.bloodtg:bracerHealthT3.name=Guarded Bleeding Bracer
+item.bloodtg:bracerIceT3.name=Icey Bracer
+item.bloodtg:bracerLifeT3.name=Bracer of Myth
+itme.bloodtg:bracerFire.name=Bracer of Burning
+
+item.bloodtg:bracerEtherT4.name=Bracer of Ancient Memories
+item.bloodtg:bracerObsH.name=Bloodied Bracer of Burning
+item.bloodtg:bracerObsEtLi.name=Bracer of the Forgotten
+
+tile.bloodtg:oreEther.name=Etherium Ore

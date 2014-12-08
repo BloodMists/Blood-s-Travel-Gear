@@ -1,0 +1,17 @@
+package com.Bloods.BloodTG.item.bracerT2;
+
+import com.Bloods.BloodTG.item.ItemBTG;
+
+public class ItemBracerWind extends ItemBTG
+{
+	public ItemBracerWind()
+	{
+		super();
+		this.setUnlocalizedName("bracerWind");
+	}
+}
+/* Negates most fall damage
+ * Crafts with Ether T2 Bracer to make Ether Bracer T3
+ * Crafts from Obsidian Bracers(x2), Air Infused Gold Ingot, 2 Imbune Quartz, 4 Gold Crusted Feathers in Infusion Table @y=200+
+ * Temp Crafts from Obsidian Bracers(x2), gold ingot, 2 quartz, 4 feathers in crafting table
+ */

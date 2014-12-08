@@ -1,0 +1,29 @@
+package com.Bloods.BloodTG.creativetab;
+
+import com.Bloods.BloodTG.block.BlockBTG;
+import com.Bloods.BloodTG.init.ModBlocksLoader;
+import com.Bloods.BloodTG.init.ModItemsLoader;
+import com.Bloods.BloodTG.reference.Reference;
+
+import net.minecraft.block.Block;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+
+public class CreativetabBBTG
+{
+	public static final CreativeTabs BloodTG_Blocks = new CreativeTabs(Reference.Mod_ID) 
+	{
+		@Override
+		public Item getTabIconItem()
+		{
+			return ModItemsLoader.witheredDiamond;
+		}
+		
+		@Override
+		public String getTranslatedTabLabel()
+		{
+			return "BloodTG Blocks";
+		}
+	};
+}

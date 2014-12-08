@@ -1,0 +1,10 @@
+package com.Bloods.BloodTG.block;
+
+public class BlockOreEther extends BlockBTG
+{
+	public BlockOreEther()
+	{
+		super();
+		this.setBlockName("oreEther");
+	}
+}

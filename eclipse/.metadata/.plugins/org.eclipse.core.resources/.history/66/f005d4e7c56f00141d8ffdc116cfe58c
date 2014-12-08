@@ -1,0 +1,7 @@
+package com.Bloods.BloodTG.reference;
+
+public class Reference
+{
+	public static final String Mod_ID = "BloodTG";
+	public static final String ModName = "Blood's Travel Gear";
+}
