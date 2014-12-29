@@ -25,6 +25,7 @@ public class ItemBracerExtra extends ItemBTG
 	
 	public ItemBracerExtra()
 	{
+		super();
 		this.setHasSubtypes(true);
 		this.setType("bracer");
 	}
@@ -64,6 +65,8 @@ public class ItemBracerExtra extends ItemBTG
 		if (stack.getItemDamage() == 1)
 		{//effects Wind Bracer only
 			//reduce fall damage
+			if (player.fallDistance > 0.0F)
+				player.fallDistance -= 0.66F;
 		}
 		if (stack.getItemDamage() == 2)
 		{//effects Fire Bracer only

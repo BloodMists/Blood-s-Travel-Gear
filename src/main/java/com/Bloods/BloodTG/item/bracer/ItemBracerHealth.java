@@ -24,6 +24,7 @@ public class ItemBracerHealth extends ItemBTG
 	
 	public ItemBracerHealth()
 	{
+		super();
 		this.setHasSubtypes(true);
 		this.setType("bracer");
 	}

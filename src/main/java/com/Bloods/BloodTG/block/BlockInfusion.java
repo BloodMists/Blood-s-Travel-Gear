@@ -1,7 +1,7 @@
 package com.Bloods.BloodTG.block;
 
 import com.Bloods.BloodTG.BloodTG;
-import com.Bloods.BloodTG.init.ModBlocksLoader;
+import com.Bloods.BloodTG.init.BTGBlocksLoader;
 import com.Bloods.BloodTG.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -45,7 +45,7 @@ public class BlockInfusion extends BlockBTG
     public IIcon getIcon(int side, int meta)
     {
     	if (side == 0 )
-    	{	return ModBlocksLoader.stoneLife.getBlockTextureFromSide(side);}
+    	{	return BTGBlocksLoader.stoneLife.getBlockTextureFromSide(side);}
     	else if (side == 1 )
     	{	return infusionTop;}
     	else if (side == 2 )

@@ -24,6 +24,7 @@ public class ItemBracerIce extends ItemBTG
 	
 	public ItemBracerIce()
 	{
+		super();
 		this.setHasSubtypes(true);
 		this.setType("bracer");
 	}

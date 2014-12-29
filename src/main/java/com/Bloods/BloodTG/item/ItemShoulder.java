@@ -12,12 +12,12 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 
-public class ItemBracer extends ItemBTG
+public class ItemShoulder extends ItemBTG
 {
-	public static String[] bracer = {"bracer", "bracerObsid"};
-	IIcon[] icons = new IIcon[bracer.length];
+	public static String[] shoulder = {"shoulder", "shoulderIron"};
+	IIcon[] icons = new IIcon[shoulder.length];
 
-	public ItemBracer()
+	public ItemShoulder()
 	{
 		super();
 		this.setHasSubtypes(true);
@@ -28,7 +28,7 @@ public class ItemBracer extends ItemBTG
 	public void registerIcons(IIconRegister icon)
 	{
 		for (int i=0; i<icons.length; i++)
-			this.icons[i] = icon.registerIcon(Reference.Mod_ID.toLowerCase() + ":" + bracer[i]);
+			this.icons[i] = icon.registerIcon(Reference.Mod_ID.toLowerCase() + ":" + shoulder[i]);
 	}
 
 	@Override
@@ -43,24 +43,21 @@ public class ItemBracer extends ItemBTG
 	@SideOnly(Side.CLIENT)
 	public void getSubItems(Item item, CreativeTabs tab, List list)
 	{
-		for(int i=0;i<bracer.length;i++)
+		for(int i=0;i<shoulder.length;i++)
 			list.add(new ItemStack(this,1,i));
 	}
 
 	@Override
 	public String getUnlocalizedName(ItemStack stack)
 	{
-		return this.getUnlocalizedName()+"."+bracer[stack.getItemDamage()];
+		return this.getUnlocalizedName()+"."+shoulder[stack.getItemDamage()];
 	}
+
 }
 
-/* Bracer
- * Can not be crafted, Found in dungeon chests
- * Used in all T1 crafting recipes and additionally in higher tiers
+/* Shoulder
+ * Basic shoulder, found in dungeon chests, used in crafting T1 shoulders and above
  * 
- * Obsidian Bracer(Obsid)
- * Used in many crafting recipes
- * Crafts from Obsidian Leather(x4), Fire Shard(x2), Pure Shard in Infusion Table
- * Temp Crafts from ^^^(coal(x2)) in crafting table
- * 
+ * Iron Shoulder
+ * Crafts from Iron block, fire charge(x4), hammer in crafting table used in Mid Tier shoulder crafting recipes
  */

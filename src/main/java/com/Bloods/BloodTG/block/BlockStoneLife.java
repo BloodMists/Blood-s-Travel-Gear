@@ -2,7 +2,7 @@ package com.Bloods.BloodTG.block;
 
 import java.util.Random;
 
-import com.Bloods.BloodTG.init.ModBlocksLoader;
+import com.Bloods.BloodTG.init.BTGBlocksLoader;
 import com.Bloods.BloodTG.reference.Reference;
 
 import net.minecraft.init.Blocks;
@@ -23,7 +23,7 @@ public class BlockStoneLife extends BlockBTG
 	@Override
 	public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_)
     {
-        return Item.getItemFromBlock(ModBlocksLoader.cobbleLife);
+        return Item.getItemFromBlock(BTGBlocksLoader.cobbleLife);
     }
 }
 //Is stone, /can grow grass/, drops cobbleLife, is crafted from stone(x4), grass(x4), Bone Dust

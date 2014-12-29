@@ -1,8 +1,8 @@
 package com.Bloods.BloodTG;
 
 import com.Bloods.BloodTG.handler.configHandler;
-import com.Bloods.BloodTG.init.ModBlocksLoader;
-import com.Bloods.BloodTG.init.ModItemsLoader;
+import com.Bloods.BloodTG.init.BTGBlocksLoader;
+import com.Bloods.BloodTG.init.BTGItemsLoader;
 import com.Bloods.BloodTG.proxy.IProxy;
 import com.Bloods.BloodTG.reference.Reference;
 import com.Bloods.BloodTG.utility.logHelper;
@@ -29,8 +29,8 @@ public class BloodTG {
 		FMLCommonHandler.instance().bus().register(new configHandler());
 		logHelper.info("Pre Init Complete.");
 		
-		ModItemsLoader.init();
-		ModBlocksLoader.init();
+		BTGItemsLoader.init();
+		BTGBlocksLoader.init();
 	}
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event)

@@ -2,7 +2,8 @@ package com.Bloods.BloodTG.creativetab;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import com.Bloods.BloodTG.init.ModItemsLoader;
+
+import com.Bloods.BloodTG.init.BTGItemsLoader;
 import com.Bloods.BloodTG.reference.Reference;
 
 public class CreativetabIBTG
@@ -12,7 +13,7 @@ public class CreativetabIBTG
 		@Override
 		public Item getTabIconItem()
 		{
-			return ModItemsLoader.bracer;
+			return BTGItemsLoader.bracer;
 		}
 		
 	};
